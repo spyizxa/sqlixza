@@ -1,52 +1,42 @@
 # sqlixza
 SQLiXZA is a tool designed to detect and exploit SQL Injection (SQLi) vulnerabilities in web applications. It aims to simplify manual operations by offering a fast and user-friendly interface.
 
-SQLiXZA - Advanced SQL Injection Tool
+# SQLiXZA - Advanced SQL Injection Tool
 
-Geliştirici: @spyizxa
-Sware Turkey İçin Yapılmıştır: Telegram
+Developer: @spyizxa
+Made for Sware Turkey: Telegram
 
-SQLiXZA, SQL Injection açıklarını tespit etmek ve sömürmek için tasarlanmış güçlü bir araçtır. Hem otomatik hem de manuel modlarda kullanılabilir ve gelişmiş özellikleriyle web güvenlik araştırmaları için uygundur.
+SQLiXZA is a powerful tool designed to detect and exploit SQL Injection vulnerabilities. It can be used in both automatic and manual modes and is suitable for web security research with its advanced features.
 
-🔥 Özellikler:
+# 🔥 Features:
 
-Dork Taraması: Anahtar kelimeler kullanarak Google üzerinden özel dork sorguları yapar.
+Dork Scan: Performs special dork queries over Google using keywords.
 
-SQLi Testi: Error-based ve Time-based SQL Injection açıklarını tespit eder.
+SQLi Test: Detects Error-based and Time-based SQL Injection vulnerabilities.
 
-Manuel ve Otomatik Mod: Kullanıcıya manuel dork girişi veya otomatik anahtar kelime ile tarama seçenekleri sunar.
+Manual and Automatic Mode: Provides the user with manual dork entry or automatic keyword scanning options.
 
-Dork Üretimi: Admin panelleri, login sayfaları ve zafiyetli parametreler için özel dork şablonları içerir.
+Dork Generation: Contains special dork templates for admin panels, login pages and vulnerable parameters.
 
-Kullanıcı Ajanı Rastgeleliği: Tarama sırasında tespit edilme riskini azaltmak için rastgele User-Agent kullanır.
+User-Agent Randomization: Uses random User-Agent to reduce the risk of detection during scanning.
 
+# 🚀 Usage Instructions:
 
-🚀 Kullanım Talimatları:
-
-1. Depoyu klonlayın:
+1. Clone the repository:
 
 git clone https://github.com/username/sqlixza.git
 cd sqlixza
 
-
-2. Gerekli kütüphaneleri yükleyin:
+2. Install required libraries:
 
 pip install -r requirements.txt
 
+3. Fill in API_KEY and CSE_ID (for Google Custom Search API usage).
 
-3. API_KEY ve CSE_ID bilgilerini doldurun (Google Custom Search API kullanımı için).
-
-
-4. Aracı çalıştırın:
+4. Run the tool:
 
 python sqlixza.py
 
+# 📌 Note:
 
-
-📌 Not:
-
-Bu araç yalnızca etik hackleme ve siber güvenlik araştırmaları için geliştirilmiştir. Yetkisiz sistemlerde kullanılması yasal sonuçlara yol açabilir. Geliştirici, bu aracın kötüye kullanımından sorumlu değildir.
-
-🛠️ Katkıda Bulunun:
-
-Bu projeye katkıda bulunmak için pull request gönderebilir veya önerilerinizi paylaşabilirsiniz.
+This tool is developed only for ethical hacking and cybersecurity research. Using it on unauthorized systems may lead to legal consequences. The developer is not responsible for any misuse of this tool.
